@@ -26,12 +26,12 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.project.spaceattack'
-    mainClass = 'com.project.spaceattack.HelloApplication'
+    mainClass = 'com.project.spaceattack.MenuApplication'
 }
 
 javafx {
     version = '17.0.2'
-    modules = ['javafx.controls', 'javafx.fxml']
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.media']
 }
 
 dependencies {
