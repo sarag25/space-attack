@@ -2,7 +2,6 @@ package com.project.spaceattack;
 
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-
 import java.nio.file.Paths;
 
 /**
